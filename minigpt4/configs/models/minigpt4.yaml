@@ -13,7 +13,7 @@ model:
   num_query_token: 32
 
   # Vicuna
-  llama_model: "/data/gpfs/projects/punim0619/ruofan/vicuna/"#修改路径
+  llama_model: ""
 
   # generation configs
   prompt: ""

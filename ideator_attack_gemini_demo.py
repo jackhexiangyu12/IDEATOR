@@ -12,8 +12,8 @@ import pandas as pd
 
 def extract_json(s):
     """
-    Given an output from the attacker LLM, this function extracts the values
-    for `improvement` and `adversarial prompt` and returns them as a dictionary.
+    Given an output from the attacker VLM, this function extracts the values
+    for `image prompt` and `text prompt` and returns them as a dictionary.
 
     Args:
         s (str): The string containing the potential JSON structure.

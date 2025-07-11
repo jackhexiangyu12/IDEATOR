@@ -1,5 +1,5 @@
 # IDEATOR
-Code for ICCV2025 paper: [IDEATOR: Jailbreaking and Benchmarking Large Vision-Language Models Using Themselves](https://arxiv.org/abs/2411.00827).
+Code for ICCV2025 paper: [IDEATOR](https://arxiv.org/abs/2411.00827).
 Benchmark are available at [VLJailbreakBench](https://huggingface.co/datasets/wang021/VLBreakBench).
 
 ![image](https://github.com/roywang021/IDEATOR/blob/main/model.png)

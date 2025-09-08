@@ -1,3 +1,4 @@
 *.pyc
 __pycache__/
 **/__pycache__
+minigpt4/datasets/builders/__pycache__/image_text_pair_builder.cpython-39.pyc

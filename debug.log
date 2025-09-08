@@ -86,3 +86,15 @@
 2025-09-08 21:35:53,308 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-13b/resolve/main/special_tokens_map.json HTTP/1.1" 403 0
 2025-09-08 21:35:53,545 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-13b/resolve/main/tokenizer_config.json HTTP/1.1" 403 0
 2025-09-08 21:35:53,777 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-13b/resolve/main/tokenizer.json HTTP/1.1" 403 0
+2025-09-08 22:40:53,770 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2025-09-08 22:40:54,085 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+2025-09-08 22:41:09,714 - root - INFO - freeze vision encoder
+2025-09-08 22:41:09,953 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/1.1" 200 0
+2025-09-08 22:41:12,632 - root - INFO - load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained_flant5xxl.pth
+2025-09-08 22:41:12,663 - root - INFO - freeze Qformer
+2025-09-08 22:41:38,944 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-13b/resolve/main/tokenizer_config.json HTTP/1.1" 403 0
+2025-09-08 22:41:39,173 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-13b/resolve/main/tokenizer.model HTTP/1.1" 403 0
+2025-09-08 22:41:39,404 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-13b/resolve/main/added_tokens.json HTTP/1.1" 403 0
+2025-09-08 22:41:39,635 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-13b/resolve/main/special_tokens_map.json HTTP/1.1" 403 0
+2025-09-08 22:41:39,862 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-13b/resolve/main/tokenizer_config.json HTTP/1.1" 403 0
+2025-09-08 22:41:40,098 - urllib3.connectionpool - DEBUG - https://huggingface.co:443 "HEAD /meta-llama/Llama-2-13b/resolve/main/tokenizer.json HTTP/1.1" 403 0

@@ -84,6 +84,7 @@ class MiniGPT4(Blip2Base):
         print('Loading Q-Former Done')
 
         print('Loading LLAMA')
+        # llama_model = 'meta-llama/Llama-2-13b'
         self.llama_tokenizer = LlamaTokenizer.from_pretrained(llama_model, use_fast=False)
         self.llama_tokenizer.pad_token = self.llama_tokenizer.eos_token
 

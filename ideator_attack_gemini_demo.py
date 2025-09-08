@@ -102,14 +102,14 @@ def get_user_prompt(goal):
 
 def gemini_api(system_prompt,content,max_retries=5, delay=1):
     client = openai.OpenAI(
-        base_url="",
-        api_key=""
+        base_url="https://aizex.top/v1",
+        api_key="sk-ySOZcB9tttfOaQfZIOgMOaTxuLGlCIBqC00Eimkw8CFYgbT2"
     )
     retries = 0
     while retries < max_retries:
         try:
             response = client.chat.completions.create(
-                model="gemini-2.0-flash-thinking-exp",
+                model="gemini-2.0-flash",
                 #model="gemini-1.5-pro",
                 messages=[
                     {"role": "system", "content": system_prompt},

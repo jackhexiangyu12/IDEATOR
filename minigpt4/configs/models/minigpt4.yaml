@@ -13,7 +13,7 @@ model:
   num_query_token: 32
 
   # Vicuna
-  llama_model: ""
+  llama_model: "/media/ssd4/hxy/huggingface/hub/models--Vision-CAIR--vicuna"
 
   # generation configs
   prompt: ""

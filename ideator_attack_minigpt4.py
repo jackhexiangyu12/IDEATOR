@@ -29,7 +29,8 @@ from diffusers import StableDiffusionPipeline,DiffusionPipeline, DPMSolverMultis
 import ast
 
 import logging
-from system_prompts import get_attacker_system_prompt_v3,get_attacker_system_prompt_v2,get_attacker_system_prompt_v4,get_attacker_system_prompt_v6
+# from system_prompts import get_attacker_system_prompt_v3,get_attacker_system_prompt_v2,get_attacker_system_prompt_v4,get_attacker_system_prompt_v6
+from system_prompts import get_attacker_system_prompt_v4
 
 import pandas as pd
 
@@ -152,12 +153,6 @@ def answer(chat_state, img_list, num_beams=1, temperature=1.0,init_ans=None,max_
                               init_ans=init_ans)[0]
 
     return llm_message, chat_state, img_list
-
-
-
-
-
-
 
 
 def get_init_msg(goal):
